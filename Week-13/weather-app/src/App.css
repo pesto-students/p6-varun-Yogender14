@@ -1,5 +1,6 @@
 .weatherBg {
-  background: url(./img/weather-2.jpg);
+  /* background: url(./img/weather-2.jpg); */
+  background: url(https://a-static.besthdwallpaper.com/clouds-lightning-sky-background-wallpaper-2048x1152-81218_49.jpg);
   background-size: cover;
   background-position: center;
   height: 50vh;
@@ -20,6 +21,7 @@
   margin: auto;
   width: 500px;
   height: 300px;
+  background-color: #FEFCFF;
 }
 
 .weatherIcon {
@@ -34,6 +36,18 @@
 }
 
 .weatherTemp {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 700;
+}
+
+.background {
+  background-color: #FEFCFF;
+  height: 100vh;
+}
+
+.btn {
+  width: 20vw;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
 }

@@ -31,8 +31,8 @@ function App() {
   }
 
   return (
-    <>
-    <div className="col-md-12"> 
+    <><div>
+    <div className="col-md-12 background  "> 
       <div className="weatherBg">
       <h1 className='heading'>Weather App</h1>
       <div className="d-grid gap-3 colo-4 mt-4">
@@ -57,7 +57,7 @@ function App() {
       </div>
 }
     </div>
-   
+    </div>
     </>
   );
 }
